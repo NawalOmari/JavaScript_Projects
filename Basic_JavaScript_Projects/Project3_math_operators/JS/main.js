@@ -40,3 +40,5 @@ document.write(X);
 var Y = 5.25;
 Y--;
 document.write(Y);
+
+window.alert(Math.random() * 100);
