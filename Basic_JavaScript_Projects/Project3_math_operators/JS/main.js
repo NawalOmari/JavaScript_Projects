@@ -8,3 +8,14 @@ function subtraction_Function() {
     document.getElementById("Math1").innerHTML = "5 - 2 = " + Subtraction;
 }
 
+function multiplication() {
+    var simple_Math = 6 * 8;
+    document.getElementById("Math2").innerHTML = "6 x 8 = " + simple_Math;
+}
+
+function division() {
+    var simple_Math = 48 / 6;
+    document.getElementById("Math3").innerHTML = "48 / 6 = " + simple_Math;
+}
+
+
