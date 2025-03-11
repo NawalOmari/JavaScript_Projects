@@ -1,2 +1,1 @@
-var A = "This is a string";
-window.alert(A);
+document.write("Hello! \"Are you ready to learn?\"");
