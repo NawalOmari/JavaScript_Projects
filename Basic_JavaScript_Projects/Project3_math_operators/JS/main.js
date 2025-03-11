@@ -27,3 +27,16 @@ function modulus_Operator() {
     var simple_Math = 25 % 6;
     document.getElementById("Math5").innerHTML = "25 % 6 =" + simple_Math;
 }
+
+function negation_Operator() {
+    var x = 10;
+    document.getElementById("Math6").innerHTML = -x;
+}
+
+var X = 5;
+X++;
+document.write(X);
+
+var Y = 5.25;
+Y--;
+document.write(Y);
