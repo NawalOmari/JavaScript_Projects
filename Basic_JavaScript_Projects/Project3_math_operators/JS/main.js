@@ -23,3 +23,7 @@ function more_Math() {  // Function that uses multiple operators
     document.getElementById("Math4").innerHTML = "(1 + 2) * 10 / 2 - 5 =" + simple_Math;
 }
 
+function modulus_Operator() {
+    var simple_Math = 25 % 6;
+    document.getElementById("Math5").innerHTML = "25 % 6 =" + simple_Math;
+}
