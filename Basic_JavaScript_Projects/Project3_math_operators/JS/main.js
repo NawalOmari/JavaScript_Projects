@@ -18,4 +18,8 @@ function division() {
     document.getElementById("Math3").innerHTML = "48 / 6 = " + simple_Math;
 }
 
+function more_Math() {  // Function that uses multiple operators
+    var simple_Math = (1 + 2) * 10 / 2 - 5;
+    document.getElementById("Math4").innerHTML = "(1 + 2) * 10 / 2 - 5 =" + simple_Math;
+}
 
