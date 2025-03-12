@@ -22,3 +22,12 @@ function my_Function2() {
 function my_Function3() {
     document.getElementById("New_and_This3").innerHTML = "Jack drives a " + Jack.Vehicle_Color + "-colored " + Jack.Vehicle_Model + " manufactured in " + Jack.Vehicle_Year;
 }
+function count_Function() {// Nested function
+    document.getElementById("Nested_Function").innerHTML = Count();
+    function Count() {
+        var Starting_point = 9;
+        function Plus_one() {Starting_point += 1;}
+        Plus_one();
+        return Starting_point;
+    }
+}
