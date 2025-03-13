@@ -1,4 +1,4 @@
-function Call_Loop(){
+function Call_Loop(){//function to count to 10
     var Digit = "";
     var x = 1;
     while (x < 11){
@@ -7,7 +7,7 @@ function Call_Loop(){
     }
     document.getElementById("Loop").innerHTML = Digit;
 }
-function Instrument_Function(){
+function Instrument_Function(){//function to list instruments
     var Instruments = ["Guitar", "Drums", "Piano", "Bass", "Violin", "Trumpet", "Flute"];
     var Content = "";
     var y;
@@ -16,7 +16,7 @@ function Instrument_Function(){
     }
     document.getElementById("List_of_Instruments").innerHTML = Content;
 }
-function Array_Function(){
+function Array_Function(){//function to list dog actions
     var Dog_Picture = [];
     Dog_Picture[0] = "sleeping";
     Dog_Picture[1] = "playing";
@@ -24,13 +24,13 @@ function Array_Function(){
     Dog_Picture[3] = "barking";
     document.getElementById("Array").innerHTML = "In this picture, the dog is " + Dog_Picture[2] + ".";
 }
-function constant_Function(){
+function constant_Function(){//function to change the color and price of a guitar
     const Musical_Instrument = {type:"guitar", brand:"Fender", color:"black"};
     Musical_Instrument.color = "blue";
     Musical_Instrument.price = "$900";
     document.getElementById("Constant").innerHTML = "The cost of the " + Musical_Instrument.type + " was " + Musical_Instrument.price;
 }
-function let_Function(){
+function let_Function(){//function to change the value of X
     var X = 82;
     document.write(X);
     {
@@ -39,7 +39,7 @@ function let_Function(){
     }
     document.write("<br>" + X);
 }
-let car = {
+let car = {//object with car properties
     make: "Dodge ",
     model: "Viper ",
     year: "2021 ",
