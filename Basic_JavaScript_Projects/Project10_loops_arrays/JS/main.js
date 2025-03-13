@@ -30,7 +30,6 @@ function constant_Function(){
     Musical_Instrument.price = "$900";
     document.getElementById("Constant").innerHTML = "The cost of the " + Musical_Instrument.type + " was " + Musical_Instrument.price;
 }
-document.write("<br>");
 function let_Function(){
     var X = 82;
     document.write(X);
@@ -40,3 +39,13 @@ function let_Function(){
     }
     document.write("<br>" + X);
 }
+let car = {
+    make: "Dodge ",
+    model: "Viper ",
+    year: "2021 ",
+    color: "red ",
+    description : function(){
+        return "The car is a " + this.year + this.color + this.make + this.model;
+    }
+};
+document.getElementById("Car_Object").innerHTML = car.description();
