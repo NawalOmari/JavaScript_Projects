@@ -24,3 +24,9 @@ function Array_Function(){
     Dog_Picture[3] = "barking";
     document.getElementById("Array").innerHTML = "In this picture, the dog is " + Dog_Picture[2] + ".";
 }
+function constant_Function(){
+    const Musical_Instrument = {type:"guitar", brand:"Fender", color:"black"};
+    Musical_Instrument.color = "blue";
+    Musical_Instrument.price = "$900";
+    document.getElementById("Constant").innerHTML = "The cost of the " + Musical_Instrument.type + " was " + Musical_Instrument.price;
+}
