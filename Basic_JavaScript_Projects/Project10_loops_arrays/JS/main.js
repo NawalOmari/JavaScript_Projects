@@ -30,3 +30,13 @@ function constant_Function(){
     Musical_Instrument.price = "$900";
     document.getElementById("Constant").innerHTML = "The cost of the " + Musical_Instrument.type + " was " + Musical_Instrument.price;
 }
+document.write("<br>");
+function let_Function(){
+    var X = 82;
+    document.write(X);
+    {
+        let X = 33;
+        document.write("<br>" + X);
+    }
+    document.write("<br>" + X);
+}
